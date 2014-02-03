@@ -1,4 +1,2 @@
-#CBridge
-This is for CBridge
+#CBridge: C for scripters
 
-Have fun!
