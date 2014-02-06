@@ -11,3 +11,19 @@ Unlike interpreted languages like Python and Ruby, C must first be compiled by a
 
 ##Running your code
 Once you've compiled your code into an executable you can simple run your executable by typing the path to the executable. For instance, if you have created a program called "zakiscool" in the folder "coolprograms" you could run your program by navigating to the folder `cd ~/coolprograms` and then running the binary `./zakiscool`.
+
+##Getting Started
+In C all programs begin and end in the "main" function.
+    int main(int argc, char *argv[]) {
+      //your code here
+    }
+When you run a program in C its execution begins inside the main function. In Python you can simple call functions and they will executed in the order they appear in the file. In python, you're perfectly able to execute
+    print "Hello"
+    print "Goodby"
+    print "You say hello, I say goodby"
+However, in C, you must put all statements you wish to be executed inside the main function:
+    int main(int argc, char *argv[]) {
+      printf("hello");
+      printf("goodby");
+      printf("you say hello, I say goodby");
+    }
