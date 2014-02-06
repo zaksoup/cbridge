@@ -18,12 +18,16 @@ In C all programs begin and end in the "main" function.
       //your code here
     }
 When you run a program in C its execution begins inside the main function. In Python you can simple call functions and they will executed in the order they appear in the file. In python, you're perfectly able to execute
-    print "Hello"
-    print "Goodby"
-    print "You say hello, I say goodby"
+```
+print "Hello"
+print "Goodby"
+```
+print "You say hello, I say goodby"
 However, in C, you must put all statements you wish to be executed inside the main function:
-    int main(int argc, char *argv[]) {
-      printf("hello");
-      printf("goodby");
-      printf("you say hello, I say goodby");
-    }
+```
+int main(int argc, char *argv[]) {
+  printf("hello");
+  printf("goodby");
+  printf("you say hello, I say goodby");
+}
+```
